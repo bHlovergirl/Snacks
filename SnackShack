@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Snack Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Global Snack Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Global Snack Shop!</h2>
+        <p>Explore snacks from around the world at the click of a button.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We bring the world's flavors right to your doorstep.</p>
+    </section>
+
+    <section id="shop">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="snack1.jpg" alt="Snack Image">
+            <p>Snack Name - $Price</p>
+        </div>
+        <!-- Repeat for each product -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@globalsnackshop.com</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Global Snack Shop</p>
+    </footer>
+</body>
+</html>
